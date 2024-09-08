@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.animate{
+    width: 900px;
+    height: 400px;
+    background-color:black ;
+    color: yellow;
+    text-align: center;
+    align-content: center;
+    animation-name: changed;
+    animation-duration: 12s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    margin-top: 90px;
+    
+}
+p{
+    padding-top:30px ;
+    font-size: 30px;
+}
+@keyframes changed {
+    0%{
+        background-color: black;
+    }
+    16.6%{
+        background-color: #ff0404;
+    }
+    33.2%{
+        background-color: #16FF00;
+    }
+    
+    49.8%{
+        background-color: #F57D1F;        ;
+    }
+    
+    66.4%{
+        background-color: #FF0080;
+    }
+    
+    83%{
+        background-color: #7C00FE;
+    }
+}
